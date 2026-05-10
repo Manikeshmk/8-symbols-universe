@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors;
+}
+
+body {
+  @apply bg-dark-bg text-gray-100;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+code,
+pre {
+  @apply font-mono;
+}
+
+/* Glow effects */
+.glow-cyan {
+  @apply shadow-lg;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+}
+
+.glow-magenta {
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(0, 255, 65, 0.5);
+}
+
+/* Neon borders */
+.border-neon-cyan {
+  border-color: #00f0ff;
+  @apply shadow-lg;
+  box-shadow: inset 0 0 10px rgba(0, 240, 255, 0.2);
+}
+
+.border-neon-magenta {
+  border-color: #ff00ff;
+  @apply shadow-lg;
+  box-shadow: inset 0 0 10px rgba(255, 0, 255, 0.2);
+}
+
+/* Terminal/Hacker style */
+.terminal-text {
+  @apply font-mono text-sm;
+  text-shadow: 0 0 10px currentColor;
+}
+
+.terminal-card {
+  @apply bg-dark-card rounded-lg p-4 border border-gray-700;
+  background: linear-gradient(135deg, rgba(26, 31, 58, 0.95), rgba(10, 14, 39, 0.95));
+  backdrop-filter: blur(10px);
+}
+
+/* Memory cell animation */
+.memory-cell {
+  @apply transition-all duration-200;
+}
+
+.memory-cell-active {
+  @apply bg-neon-cyan text-dark-bg;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
+}
+
+/* Canvas for Mandelbrot */
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 240, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 240, 255, 0.6);
+}

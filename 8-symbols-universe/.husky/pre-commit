@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+// Husky pre-commit hook
+console.log('🧠 Running pre-commit checks...');
