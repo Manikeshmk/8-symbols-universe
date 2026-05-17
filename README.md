@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/vite/vite.png" alt="Vite" width="32" />
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" alt="Node.js" width="32" />
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/docker/docker.png" alt="Docker" width="32" />
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/webgl/webgl.png" alt="WebGL" width="32" />
+  <img src="http://github.io" alt="WebGL" width="32" />
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/zustand/zustand.png" alt="Zustand" width="32" />
 </p>
 
