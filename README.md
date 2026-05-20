@@ -1,3 +1,6 @@
+![Repo visits](https://hits.sh/github.com/Manikeshmk/8-symbols-universe.svg?label=repo%20visits)
+![GitHub stars](https://img.shields.io/github/stars/Manikeshmk/8-symbols-universe?style=logo&logo=github&label=⭐%20Stars) 
+![GitHub forks](https://img.shields.io/github/forks/Manikeshmk/8-symbols-universe?style=social)
 <p align="center">
   <img src="https://raw.githubusercontent.com/manikeshmk/8-symbols-universe/main/docs/logo.svg" alt="8 Symbols Universe Logo" width="90" />
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React" width="32" />
